@@ -107,7 +107,7 @@ export default class CreateExercise extends Component {
                          <input type='text' required className='form-control' value={this.state.duration} onChange={this.onChangeDuration}/>
                     </div>
                     <div className="form-group">
-                         <label>Date: </label>
+                         <label style={{marginRight: 10}}>Date:</label>
                          <DatePicker selected={this.state.date} onChange={this.onChangeDate}/>
                     </div>
                     <div className="form-group">

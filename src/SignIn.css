@@ -1,0 +1,17 @@
+form {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+p {
+    color: #bf1650;
+}
+
+label {
+    margin-top: 20px;
+    display: block;
+}
+
+input {
+    width: 100%;
+}
